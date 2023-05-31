@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router";
 import { IoClose } from "react-icons/io5";
 import { BiMenuAltRight } from "react-icons/bi";
 import Aso from "../../Assets/img/Abimsaro.jpg";
@@ -10,6 +11,8 @@ function NavBar() {
     setNav(!nav);
   };
 
+  const navigate = useNavigate();
+
   return (
     <div className="w-full fixed z-20">
       <div className="xl:px-[18rem] px-4 py-2 floated active">
@@ -18,9 +21,19 @@ function NavBar() {
             <img className="h-[5rem]" src={Aso} alt="Aso" />
           </div>
           <div className="hidden md:flex text-[#432818] cursor-pointer navbar">
-            <p className="pr-5 text-2xl font-semibold">Home</p>
+            <p
+              onClick={() => navigate("/")}
+              className="pr-5 text-2xl font-semibold"
+            >
+              Home
+            </p>
             <p className="pr-5 text-2xl font-semibold">About</p>
-            <p className="pr-5 text-2xl font-semibold">Clothe-Hub</p>
+            <p
+              onClick={() => navigate("/hub")}
+              className="pr-5 text-2xl font-semibold"
+            >
+              Asooke-Hub
+            </p>
             <p className="pr-5 text-2xl font-semibold">Contact</p>
           </div>
           <div onClick={handleNav} className="block md:hidden cursor-pointer">
@@ -41,9 +54,19 @@ function NavBar() {
               <img className="h-[5rem]" src={Aso} alt="Aso" />
             </div>
             <div className="text-center cursor-pointer mt-5 ">
-              <p className="p-5 text-2xl font-semibold">Home</p>
+              <p
+                onClick={() => navigate("/")}
+                className="p-5 text-2xl font-semibold"
+              >
+                Home
+              </p>
               <p className="p-5 text-2xl font-semibold">About</p>
-              <p className="p-5 text-2xl font-semibold">Clothe-Hub</p>
+              <p
+                onClick={() => navigate("/hub")}
+                className="p-5 text-2xl font-semibold"
+              >
+                Asooke-Hub
+              </p>
               <p className="p-5 text-2xl font-semibold">Contact</p>
             </div>
           </div>
