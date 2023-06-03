@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router";
 import { IoClose } from "react-icons/io5";
-import { BiMenuAltRight } from "react-icons/bi";
+import { IoMenu } from "react-icons/io5";
 import Aso from "../../Assets/img/Abimsaro.jpg";
 
 function NavBar() {
@@ -18,7 +18,7 @@ function NavBar() {
       <div className="xl:px-[18rem] px-4 py-2 floated active">
         <header className="flex justify-between items-center">
           <div className="">
-            <img className="h-[5rem]" src={Aso} alt="Aso" />
+            <img className="lg:h-[5rem] md:h-[4rem] h-9" src={Aso} alt="Aso" />
           </div>
           <div className="hidden md:flex text-[#432818] cursor-pointer navbar">
             <p
@@ -40,7 +40,7 @@ function NavBar() {
             {nav ? (
               <IoClose size={30} color="#432818" />
             ) : (
-              <BiMenuAltRight size={40} color="#432818" />
+              <IoMenu size={35} color="#432818" />
             )}
           </div>
           <div
@@ -53,7 +53,7 @@ function NavBar() {
             <div className="place-items-center grid">
               <img className="h-[5rem]" src={Aso} alt="Aso" />
             </div>
-            <div className="text-center cursor-pointer mt-5 ">
+            <div className="text-center text-[#432818] cursor-pointer mt-5 ">
               <p
                 onClick={() => navigate("/")}
                 className="p-5 text-2xl font-semibold"

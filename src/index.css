@@ -75,8 +75,20 @@ input::placeholder {
 .storebg {
   min-height: 70vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-    url(./Assets/pic/Asooke1.jpg);
+    url(./Assets/pic/Asooke7.png);
   background-size: cover;
   background-position: 50%;
   background-repeat: no-repeat;
+}
+
+@media (width: 768px) {
+    .storebg{
+        min-height: 90vh;
+    }
+}
+
+@media (width: 1024px) {
+    .storebg{
+        min-height: 100vh;
+    }
 }
