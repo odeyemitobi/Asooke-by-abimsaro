@@ -55,7 +55,7 @@ function Home() {
     <Mainlayout>
       <div className="">
         <div className="w-full storebg">
-          <div className="px-2 2xl:pt-[15rem] xl:pt-[15rem] lg:pt-[9rem] md:pt-[7rem] sm:pt-[8rem] xs:pt-[7rem] pt-[7rem]">
+          <div className="px-2 2xl:pt-[15rem] xl:pt-[15rem] lg:pt-[9rem] md:pt-[7rem] sm:pt-[8rem] xs:pt-[8rem] pt-[7rem]">
             <div className="text-center">
               <div className=" place-items-center grid">
                 <h1 className=" w-full lg:w-[70%] md:w-[80%] text-white font-semibold 2xl:text-[5.8rem] xl:text-[5.8rem] lg:text-[5rem] md:text-[5rem] sm:text-[7rem] xs:text-[2.3rem] text-[2.3rem]">
@@ -93,32 +93,13 @@ function Home() {
 
         <div className="bg-[#d4a473]">
           <div className="py-[4rem] ">
-            <div className="text-center">
+            <div id="about" className="text-center">
               <h1 className="text-2xl sm:text-[3rem] text-white font-semibold">
                 ABOUT
               </h1>
             </div>
           </div>
         </div>
-
-        <div className="bg-[#432818]">
-          <div className="py-9 ">
-            <div className="text-center text-white">
-              <div>
-                <h1>Contact Us</h1>
-              </div>
-              <div></div>
-            </div>
-          </div>
-        </div>
-
-        <footer className="bg-[#432818] border-t-2 border-[#fff6e4]">
-          <div className="text-center place-items-center grid h-[8vh]">
-            <h1 className="text-base text-white">
-              &copy; Copyright 2023. Asooke by Abimsaro.
-            </h1>
-          </div>
-        </footer>
       </div>
     </Mainlayout>
   );
