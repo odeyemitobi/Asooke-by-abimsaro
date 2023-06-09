@@ -26,19 +26,19 @@ function NavBar() {
             <NavLink
               to="/"
               className={({ isActive }) =>
-                "pr-5 text-2xl font-semibold " +
+                "pr-5 text-2xl font-semibold hover:text-[#432818] " +
                 (isActive ? "selected" : "cursor-pointer ")
               }
             >
-             Home
+              Home
             </NavLink>
-            <p className="pr-5 text-2xl font-semibold">
+            <p className="pr-5 text-2xl font-semibold hover:text-[#432818]">
               <a href="#about">About</a>
             </p>
             <NavLink
               to="/hub"
               className={({ isActive }) =>
-                "pr-5 text-2xl font-semibold " +
+                "pr-5 text-2xl font-semibold hover:text-[#432818] " +
                 (isActive ? "selected" : "cursor-pointer")
               }
             >
@@ -47,7 +47,7 @@ function NavBar() {
             <NavLink
               to="/contact"
               className={({ isActive }) =>
-                "pr-5 text-2xl font-semibold " +
+                "pr-5 text-2xl font-semibold hover:text-[#432818] " +
                 (isActive ? "selected" : "cursor-pointer")
               }
             >
@@ -74,18 +74,22 @@ function NavBar() {
             <div className="text-center text-[#d4a473] cursor-pointer mt-5 ">
               <p
                 onClick={() => navigate("/")}
-                className="p-5 text-2xl font-semibold"
+                className="p-5 text-2xl font-semibold hover:text-[#432818]"
               >
                 Home
               </p>
-              <p className="p-5 text-2xl font-semibold">About</p>
+              <p className="p-5 text-2xl font-semibold hover:text-[#432818]">
+                About
+              </p>
               <p
                 onClick={() => navigate("/hub")}
-                className="p-5 text-2xl font-semibold"
+                className="p-5 text-2xl font-semibold hover:text-[#432818]"
               >
                 Asooke-Hub
               </p>
-              <p className="p-5 text-2xl font-semibold">Contact</p>
+              <p className="p-5 text-2xl font-semibold hover:text-[#432818]">
+                Contact
+              </p>
             </div>
           </div>
         </header>

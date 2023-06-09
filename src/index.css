@@ -58,20 +58,6 @@ input::placeholder {
   box-shadow: 0 1px 10px #999;
 }
 
-.navbar p::after {
-  content: "";
-  width: 0%;
-  height: 3px;
-  background: #d4a473;
-  display: block;
-  margin: auto;
-  transition: 0.5s;
-}
-
-.navbar p:hover::after {
-  width: 100%;
-}
-
 .storebg {
   min-height: 70vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
