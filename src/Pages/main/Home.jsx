@@ -15,38 +15,64 @@ function Home() {
   const service = [
     {
       id: 1,
+      tittle: (
+        <h1 className="xl:text-[1.7rem] xs:text-[1rem] text-[13px] font-semibold xl:ml-4 ml-1 pt-3">
+          Multi-Coloured Cotton Asooke
+        </h1>
+      ),
       image: (
-        <img className="rounded-[10px] xl:h-[25rem]" src={As2} alt="As2" />
+        <img className="rounded-[5px] xl:h-[25rem]" src={As2} alt="As2" />
       ),
     },
     {
       id: 2,
+      tittle: (
+        <h1 className="xl:text-[1.7rem] xs:text-[1rem] text-[13px] font-semibold xl:ml-4 ml-1 pt-3">
+          Navy Blue and Powder blue cotton Asooke
+        </h1>
+      ),
       image: (
-        <img className="rounded-[10px] xl:h-[25rem]" src={As3} alt="As2" />
+        <img className="rounded-[5px] xl:h-[25rem]" src={As3} alt="As2" />
       ),
     },
     {
       id: 3,
+      tittle: (
+        <h1 className="xl:text-[1.7rem] xs:text-[1rem] text-[13px] font-semibold xl:ml-4 ml-1 pt-3">
+          Navy Blue and Powder blue cotton Asooke
+        </h1>
+      ),
       image: (
-        <img className="rounded-[10px] xl:h-[25rem]" src={As4} alt="As2" />
+        <img className="rounded-[5px] xl:h-[25rem]" src={As4} alt="As2" />
       ),
     },
     {
       id: 4,
+      tittle: (
+        <h1 className="xl:text-[1.7rem] xs:text-[1rem] text-[13px] font-semibold xl:ml-4 ml-1 pt-3">Metallic Asooke</h1>
+      ),
       image: (
-        <img className="rounded-[10px] xl:h-[25rem]" src={As5} alt="As2" />
+        <img className="rounded-[5px] xl:h-[25rem]" src={As5} alt="As2" />
       ),
     },
     {
       id: 5,
+      tittle: (
+        <h1 className="xl:text-[1.7rem] xs:text-[1rem] text-[13px] font-semibold xl:ml-4 ml-1 pt-3">Damask Asooke</h1>
+      ),
       image: (
-        <img className="rounded-[10px] xl:h-[25rem]" src={As6} alt="As2" />
+        <img className="rounded-[15x] xl:h-[25rem]" src={As6} alt="As2" />
       ),
     },
     {
       id: 6,
+      tittle: (
+        <h1 className="xl:text-[1.7rem] xs:text-[1rem] text-[13px] font-semibold xl:ml-4 ml-1 pt-3">
+          Multi-Coloured Cotton Asooke
+        </h1>
+      ),
       image: (
-        <img className="rounded-[10px] xl:h-[25rem]" src={As7} alt="As2" />
+        <img className="rounded-[5px] xl:h-[25rem]" src={As7} alt="As2" />
       ),
     },
   ];
@@ -55,7 +81,7 @@ function Home() {
     <Mainlayout>
       <div className="">
         <div className="w-full storebg">
-          <div className="px-2 2xl:pt-[15rem] xl:pt-[15rem] lg:pt-[9rem] md:pt-[7rem] sm:pt-[8rem] xs:pt-[8rem] pt-[7rem]">
+          <div className="px-2 sm:pt-[15rem] xs:pt-[14rem] pt-[13rem]">
             <div className="text-center">
               <div className=" place-items-center grid">
                 <h1 className=" w-full lg:w-[70%] md:w-[80%] text-white font-semibold 2xl:text-[5.8rem] xl:text-[5.8rem] lg:text-[5rem] md:text-[5rem] sm:text-[7rem] xs:text-[2.3rem] text-[2.3rem]">
@@ -85,6 +111,9 @@ function Home() {
                   <div className=" place-items-center grid">
                     {service.image}
                   </div>
+                  <div>
+                    {service.tittle}
+                  </div>
                 </div>
               ))}
             </div>
@@ -97,6 +126,9 @@ function Home() {
               <h1 className="text-2xl sm:text-[3rem] text-white font-semibold">
                 ABOUT
               </h1>
+            </div>
+            <div>
+              <p></p>
             </div>
           </div>
         </div>

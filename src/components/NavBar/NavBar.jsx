@@ -87,7 +87,10 @@ function NavBar() {
               >
                 Asooke-Hub
               </p>
-              <p className="p-5 text-2xl font-semibold hover:text-[#432818]">
+              <p
+                onClick={() => navigate("/contact")}
+                className="p-5 text-2xl font-semibold hover:text-[#432818]"
+              >
                 Contact
               </p>
             </div>
