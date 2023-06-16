@@ -81,7 +81,7 @@ function Home() {
     <Mainlayout>
       <div className="">
         <div className="w-full storebg">
-          <div className="px-2 sm:pt-[15rem] xs:pt-[14rem] pt-[13rem]">
+          <div className="px-2 lg:pt-[20rem] sm:pt-[15rem] xs:pt-[14rem] pt-[13rem]">
             <div className="text-center">
               <div className=" place-items-center grid">
                 <h1 className=" w-full lg:w-[70%] md:w-[80%] text-white font-semibold 2xl:text-[5.8rem] xl:text-[5.8rem] lg:text-[5rem] md:text-[5rem] sm:text-[7rem] xs:text-[2.3rem] text-[2.3rem]">

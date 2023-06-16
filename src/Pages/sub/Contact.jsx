@@ -11,11 +11,11 @@ function Contact() {
         <div className="xl:pt-[11rem] pb-[13rem] py-24 xl:px-[18rem] px-2">
           <div className="text-white ">
             <div className=" xl:pt-0 md:pt-[5.6rem] sm:pt-[5rem] ">
-              <h1 className="text-white xl:text-[5rem] sm:text-[5rem] xs:text-[3rem] text-[2rem] font-semibold">
+              <h1 className="text-white text-center xl:text-[5rem] sm:text-[5rem] xs:text-[3rem] text-[2rem] font-semibold">
                 Contact Us
               </h1>
             </div>
-            <div className="xl:flex xl:flex-col-2 md:flex md:flex-col-2  grid justify-between xl:pt-[11rem] md:pt-[10rem] sm:pt-[9rem] pt-[5.5rem]">
+            <div className="xl:flex xl:flex-col-2 md:flex md:flex-col-2  grid justify-between xl:pt-[5rem] pt-[3rem]">
               <div className="w-[90%] xl:text-[4rem] md:text-[3.7rem] sm:text-[5rem] text-[2rem] md:pt-10 ">
                 <h1>
                   For more Enquiries please contact us via this infos.
@@ -70,7 +70,7 @@ function Contact() {
                   </div>
                   <div className="ml-5 sm:text-[2rem] text-[1.2rem]">
                     <p className="cursor-pointer">
-                      1 Lawrence Lane, Gotta, Opposite Sunlight Plaza Lagos.
+                      1 Lawrence Lane, Gotta, Opposite Sunlight Plaza, Eko Idumota, Lagos.
                     </p>
                   </div>
                 </div>

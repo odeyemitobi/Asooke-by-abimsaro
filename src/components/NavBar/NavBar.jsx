@@ -17,7 +17,7 @@ function NavBar() {
 
   return (
     <div className="w-full fixed z-20">
-      <div className="xl:px-[18rem] px-4 py-2 floated active">
+      <div className=" xl:px-[18rem] px-4 py-2 floated active">
         <header className="flex justify-between items-center">
           <div className="">
             <img className="lg:h-[5rem] md:h-[4rem] h-9" src={Aso} alt="Aso" />

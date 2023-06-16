@@ -59,11 +59,11 @@ input::placeholder {
 }
 
 .storebg {
-  min-height: 70vh;
+  min-height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
     url(./Assets/img/bg.jpg);
   background-size: cover;
-  background-position: 50%;
+  background-position: 50% 20%;
   background-repeat: no-repeat;
 }
 
