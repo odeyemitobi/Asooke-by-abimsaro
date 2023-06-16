@@ -8,7 +8,7 @@ function Contact() {
   return (
     <Mainlayout>
       <div className="bg-[#432818]">
-        <div className="xl:pt-[11rem] pb-[13rem] py-24 xl:px-[18rem] px-2">
+        <div className="xl:pt-[11rem] pb-[13rem] py-24 xl:px-[10rem] px-2">
           <div className="text-white ">
             <div className=" xl:pt-0 md:pt-[5.6rem] sm:pt-[5rem] ">
               <h1 className="text-white text-center xl:text-[5rem] sm:text-[5rem] xs:text-[3rem] text-[2rem] font-semibold">

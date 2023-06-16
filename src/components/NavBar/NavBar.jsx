@@ -64,14 +64,14 @@ function NavBar() {
           <div
             className={
               nav
-                ? "fixed left-0 top-0 w-[75%] h-full border-r border-r-gray-900 bg-[#fff6e4] ease-in-out duration-500"
+                ? "fixed left-0 top-0 w-[75%] h-full border-r border-r-gray-900 bg-[#432818] ease-in-out duration-500"
                 : "ease-in-out duration-500 fixed left-[-100%]"
             }
           >
             <div className="place-items-center grid">
               <img className="h-[5rem]" src={Aso} alt="Aso" />
             </div>
-            <div className="text-center text-[#d4a473] cursor-pointer mt-5 ">
+            <div className="text-center text-[#fff6e4] cursor-pointer mt-5 ">
               <p
                 onClick={() => navigate("/")}
                 className="p-5 text-2xl font-semibold hover:text-[#432818]"
