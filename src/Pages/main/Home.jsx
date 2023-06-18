@@ -80,6 +80,7 @@ function Home() {
   return (
     <Mainlayout>
       <div className="">
+
         <div className="w-full storebg">
           <div className="px-2 lg:pt-[20rem] sm:pt-[15rem] xs:pt-[14rem] pt-[13rem]">
             <div className="text-center">
@@ -111,9 +112,7 @@ function Home() {
                   <div className=" place-items-center grid">
                     {service.image}
                   </div>
-                  <div>
-                    {service.tittle}
-                  </div>
+                  <div>{service.tittle}</div>
                 </div>
               ))}
             </div>
@@ -122,16 +121,23 @@ function Home() {
 
         <div className="bg-[#d4a473]">
           <div className="py-[4rem] ">
-            <div id="about" className="text-center">
+            <div className="text-center">
               <h1 className="text-2xl sm:text-[3rem] text-white font-semibold">
                 ABOUT
               </h1>
             </div>
-            <div>
-              <p></p>
+            <div className="pt-[3.5rem] xl:px-[18rem] px-2 ">
+              <p className="text-center text-white sm:text-3xl text-lg">
+                At Asooke by AbimsAro we are intentional about bringing you
+                elegance and style infused in our rich culture and tradition ,
+                through our versatile and unique range of Asooke fabrics we
+                commit to making you look your most beautiful and radiant selves
+                at any occasion.
+              </p>
             </div>
           </div>
         </div>
+
       </div>
     </Mainlayout>
   );
