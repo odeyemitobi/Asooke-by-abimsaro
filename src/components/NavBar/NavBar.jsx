@@ -32,9 +32,17 @@ function NavBar() {
             >
               Home
             </NavLink>
-            <p className="pr-5 text-2xl font-semibold hover:text-[#432818]">
-              <a href="#about">About</a>
-            </p>
+
+            <NavLink
+              to="/about"
+              className={({ isActive }) =>
+                "pr-5 text-2xl font-semibold hover:text-[#432818] " +
+                (isActive ? "selected" : "cursor-pointer ")
+              }
+            >
+              About
+            </NavLink>
+
             <NavLink
               to="/hub"
               className={({ isActive }) =>
@@ -44,6 +52,7 @@ function NavBar() {
             >
               Asooke-Hub
             </NavLink>
+
             <NavLink
               to="/contact"
               className={({ isActive }) =>
@@ -74,22 +83,25 @@ function NavBar() {
             <div className="text-center text-[#fff6e4] cursor-pointer mt-5 ">
               <p
                 onClick={() => navigate("/")}
-                className="p-5 text-2xl font-semibold hover:text-[#432818]"
+                className="p-5 text-2xl font-semibold hover:text-[#d4a473]"
               >
                 Home
               </p>
-              <p className="p-5 text-2xl font-semibold hover:text-[#432818]">
+              <p
+                onClick={() => navigate("/about")}
+                className="p-5 text-2xl font-semibold hover:text-[#d4a473]"
+              >
                 About
               </p>
               <p
                 onClick={() => navigate("/hub")}
-                className="p-5 text-2xl font-semibold hover:text-[#432818]"
+                className="p-5 text-2xl font-semibold hover:text-[#d4a473]"
               >
                 Asooke-Hub
               </p>
               <p
                 onClick={() => navigate("/contact")}
-                className="p-5 text-2xl font-semibold hover:text-[#432818]"
+                className="p-5 text-2xl font-semibold hover:text-[#d4a473]"
               >
                 Contact
               </p>

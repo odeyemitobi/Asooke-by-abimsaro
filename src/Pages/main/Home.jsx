@@ -6,6 +6,10 @@ import As5 from "../../Assets/pic/Asooke5.png";
 import As6 from "../../Assets/pic/Asooke6.png";
 import As7 from "../../Assets/pic/Asooke7.png";
 import { useNavigate } from "react-router";
+import { ImFacebook } from "react-icons/im";
+import { BsTelephoneFill } from "react-icons/bs";
+import { AiFillInstagram } from "react-icons/ai";
+import { IoMdMail } from "react-icons/io";
 import Mainlayout from "../../Layouts/Mainlayout";
 import MoreBtn from "./../../components/Button/MoreBtn";
 
@@ -20,9 +24,7 @@ function Home() {
           Multi-Coloured Cotton Asooke
         </h1>
       ),
-      image: (
-        <img className="rounded-[5px] xl:h-[25rem]" src={As2} alt="As2" />
-      ),
+      image: <img className="rounded-[5px] xl:h-[25rem]" src={As2} alt="As2" />,
     },
     {
       id: 2,
@@ -31,9 +33,7 @@ function Home() {
           Navy Blue and Powder blue cotton Asooke
         </h1>
       ),
-      image: (
-        <img className="rounded-[5px] xl:h-[25rem]" src={As3} alt="As2" />
-      ),
+      image: <img className="rounded-[5px] xl:h-[25rem]" src={As3} alt="As2" />,
     },
     {
       id: 3,
@@ -42,27 +42,25 @@ function Home() {
           Navy Blue and Powder blue cotton Asooke
         </h1>
       ),
-      image: (
-        <img className="rounded-[5px] xl:h-[25rem]" src={As4} alt="As2" />
-      ),
+      image: <img className="rounded-[5px] xl:h-[25rem]" src={As4} alt="As2" />,
     },
     {
       id: 4,
       tittle: (
-        <h1 className="xl:text-[1.7rem] xs:text-[1rem] text-[13px] font-semibold xl:ml-4 ml-1 pt-3">Metallic Asooke</h1>
+        <h1 className="xl:text-[1.7rem] xs:text-[1rem] text-[13px] font-semibold xl:ml-4 ml-1 pt-3">
+          Metallic Asooke
+        </h1>
       ),
-      image: (
-        <img className="rounded-[5px] xl:h-[25rem]" src={As5} alt="As2" />
-      ),
+      image: <img className="rounded-[5px] xl:h-[25rem]" src={As5} alt="As2" />,
     },
     {
       id: 5,
       tittle: (
-        <h1 className="xl:text-[1.7rem] xs:text-[1rem] text-[13px] font-semibold xl:ml-4 ml-1 pt-3">Damask Asooke</h1>
+        <h1 className="xl:text-[1.7rem] xs:text-[1rem] text-[13px] font-semibold xl:ml-4 ml-1 pt-3">
+          Damask Asooke
+        </h1>
       ),
-      image: (
-        <img className="rounded-[15x] xl:h-[25rem]" src={As6} alt="As2" />
-      ),
+      image: <img className="rounded-[15x] xl:h-[25rem]" src={As6} alt="As2" />,
     },
     {
       id: 6,
@@ -71,16 +69,13 @@ function Home() {
           Multi-Coloured Cotton Asooke
         </h1>
       ),
-      image: (
-        <img className="rounded-[5px] xl:h-[25rem]" src={As7} alt="As2" />
-      ),
+      image: <img className="rounded-[5px] xl:h-[25rem]" src={As7} alt="As2" />,
     },
   ];
 
   return (
     <Mainlayout>
       <div className="">
-
         <div className="w-full storebg">
           <div className="px-2 lg:pt-[20rem] sm:pt-[15rem] xs:pt-[14rem] pt-[13rem]">
             <div className="text-center">
@@ -128,16 +123,34 @@ function Home() {
             </div>
             <div className="pt-[3.5rem] xl:px-[18rem] px-2 ">
               <p className="text-center text-white sm:text-3xl text-lg">
-                At Asooke by AbimsAro we are intentional about bringing you
+                At Asooke by Abimsaro we are intentional about bringing you
                 elegance and style infused in our rich culture and tradition ,
                 through our versatile and unique range of Asooke fabrics we
                 commit to making you look your most beautiful and radiant selves
                 at any occasion.
               </p>
             </div>
+            <div className="py-9 xl:px-[20rem] px-2 text-center text-white">
+              <div className="">
+                <h1 className=" sm:text-4xl text-lg font-semibold">Contact us</h1>
+              </div>
+              <div className="flex justify-center pt-4">
+                <div className="border-2 rounded-full p-1 mr-3">
+                  <BsTelephoneFill />
+                </div>
+                <div className="border-2 rounded-full p-1 mr-3">
+                  <IoMdMail />
+                </div>
+                <div className="border-2 rounded-full p-1 mr-3">
+                  <ImFacebook />
+                </div>
+                <div className="border-2 rounded-full p-1 mr-3">
+                  <AiFillInstagram />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-
       </div>
     </Mainlayout>
   );
