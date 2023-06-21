@@ -130,22 +130,48 @@ function Home() {
                 at any occasion.
               </p>
             </div>
-            <div className="py-9 xl:px-[20rem] px-2 text-center text-white">
+            <div className="py-16 xl:px-[20rem] px-2 text-center text-white">
               <div className="">
-                <h1 className=" sm:text-4xl text-lg font-semibold">Contact us</h1>
+                <h1 className=" sm:text-4xl text-lg font-semibold">
+                  Contact us
+                </h1>
               </div>
               <div className="flex justify-center pt-4">
                 <div className="border-2 rounded-full p-1 mr-3">
-                  <BsTelephoneFill />
+                  <a
+                    target="_blank"
+                    href="tel:+2347019139931"
+                    rel="noopener noreferrer"
+                  >
+                    <BsTelephoneFill />
+                  </a>
                 </div>
                 <div className="border-2 rounded-full p-1 mr-3">
-                  <IoMdMail />
+                  <a
+                    target="_blank"
+                    href="mailto:bimsaro@hotmail.com?subject=subject text"
+                    rel="noopener noreferrer"
+                  >
+                    <IoMdMail />
+                  </a>
                 </div>
                 <div className="border-2 rounded-full p-1 mr-3">
-                  <ImFacebook />
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/profile.php?id=100010040205937&mibextid=ZbWKwL"
+                    rel="noopener noreferrer"
+                  >
+                    <ImFacebook />
+                  </a>
                 </div>
                 <div className="border-2 rounded-full p-1 mr-3">
-                  <AiFillInstagram />
+                  <a
+                    target="_blank"
+                    href="https://instagram.com/abimsaro/"
+                    rel="noopener noreferrer"
+                  >
+                    <AiFillInstagram />
+                  </a>
                 </div>
               </div>
             </div>
