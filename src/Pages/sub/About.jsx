@@ -12,7 +12,7 @@ function About() {
         </div>
       </div>
 
-      <div className="xl:px-[18rem] px-2 py-[3rem]">
+      <div className="xl:px-[18rem] px-2 xs:py-[3rem] pt-[3rem] pb-[6rem]">
         <div className="text-center">
           <p className="md:text-[2rem] text-[1.3rem]">
             At Asooke by Abimsaro we are intentional about bringing you elegance
