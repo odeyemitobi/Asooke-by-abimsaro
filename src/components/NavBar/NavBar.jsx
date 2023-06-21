@@ -19,8 +19,13 @@ function NavBar() {
     <div className="w-full fixed z-20">
       <div className=" xl:px-[14rem] px-4 py-2 floated active">
         <header className="flex justify-between items-center">
-          <div className="">
-            <img className="md:h-[4rem] h-9" src={Aso} alt="Aso" />
+          <div className="cursor-pointer">
+            <img
+              onClick={() => navigate("/")}
+              className="md:h-[4rem] h-9"
+              src={Aso}
+              alt="Aso"
+            />
           </div>
           <div className="hidden md:flex text-[#d4a473] cursor-pointer">
             <NavLink
