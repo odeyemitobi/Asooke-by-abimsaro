@@ -12,12 +12,12 @@ function Contact() {
         <div className="xl:pt-[11rem] pb-[13rem] py-24 xl:px-[10rem] px-2">
           <div className="text-white ">
             <div className=" xl:pt-0 md:pt-[5.6rem] sm:pt-[5rem] ">
-              <h1 className="text-white text-center xl:text-[5rem] sm:text-[5rem] xs:text-[3rem] text-[2rem] font-semibold">
+              <h1 className="text-white right text-center xl:text-[5rem] sm:text-[5rem] xs:text-[3rem] text-[2rem] font-semibold">
                 Contact Us
               </h1>
             </div>
             <div className="xl:flex xl:flex-col-2 md:flex md:flex-col-2  grid justify-between xl:pt-[5rem] pt-[3rem]">
-              <div className="w-[90%] xl:text-[4rem] md:text-[3.7rem] sm:text-[5rem] text-[2rem] md:pt-10 ">
+              <div className="w-[90%] right xl:text-[4rem] md:text-[3.7rem] sm:text-[5rem] text-[2rem] md:pt-10 ">
                 <h1>For more Enquiries please contact us via this infos.</h1>
               </div>
               <div className="w-full text-[2rem] xl:pl-14 md:pl-12 xl:pt-0 pt-9">

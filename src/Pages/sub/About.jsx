@@ -6,7 +6,7 @@ function About() {
     <Mainlayout>
       <div className="w-full bg-[#432818] h-[50vh] ">
         <div className="trans">
-          <h1 className="text-white md:text-[3rem] text-3xl font-semibold">
+          <h1 className="text-white right md:text-[3rem] text-3xl font-semibold">
             About us
           </h1>
         </div>

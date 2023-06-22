@@ -80,7 +80,7 @@ function Home() {
           <div className="px-2 lg:pt-[20rem] sm:pt-[15rem] xs:pt-[14rem] pt-[13rem]">
             <div className="text-center">
               <div className=" place-items-center grid">
-                <h1 className=" w-full lg:w-[70%] md:w-[80%] text-white font-semibold 2xl:text-[5.8rem] xl:text-[5.8rem] lg:text-[5rem] md:text-[5rem] sm:text-[7rem] xs:text-[2.3rem] text-[2.3rem]">
+                <h1 className=" w-full lg:w-[70%] md:w-[80%] right text-white font-semibold 2xl:text-[5.8rem] xl:text-[5.8rem] lg:text-[5rem] md:text-[5rem] sm:text-[7rem] xs:text-[2.3rem] text-[2.3rem]">
                   Check out our Aso-oke hub
                 </h1>
               </div>
@@ -97,7 +97,7 @@ function Home() {
         <div className="md:pt-20 pt-10">
           <div className="">
             <div className="text-center">
-              <h1 className="text-2xl sm:text-[3rem] text-[#432818] font-semibold">
+              <h1 className="text-2xl sm:text-[3rem] right text-[#432818] font-semibold">
                 WHAT WE SELL
               </h1>
             </div>
@@ -117,7 +117,7 @@ function Home() {
         <div className="bg-[#d4a473]">
           <div className="py-[4rem] ">
             <div className="text-center">
-              <h1 className="text-2xl sm:text-[3rem] text-white font-semibold">
+              <h1 className="text-2xl sm:text-[3rem] right text-white font-semibold">
                 ABOUT
               </h1>
             </div>
@@ -132,7 +132,7 @@ function Home() {
             </div>
             <div className="py-16 xl:px-[20rem] px-2 text-center text-white">
               <div className="">
-                <h1 className=" sm:text-4xl text-lg font-semibold">
+                <h1 className=" right sm:text-4xl text-lg font-semibold">
                   Contact us
                 </h1>
               </div>

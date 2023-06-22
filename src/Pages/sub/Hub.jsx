@@ -548,7 +548,7 @@ function Hub() {
       <div className="w-full">
         <div className="md:pt-[11rem] py-20">
           <div className=" place-items-center grid text-center">
-            <h1 className="md:w-[20%] text-4xl text-[#432818] font-semibold p-2 border-[#d4a473] border-4">
+            <h1 className="md:w-[20%] right text-4xl text-[#432818] font-semibold p-2 border-[#d4a473] border-4">
               OUR HUB
             </h1>
           </div>
